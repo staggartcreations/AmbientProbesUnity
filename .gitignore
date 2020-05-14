@@ -1,0 +1,80 @@
+# RCRS REPO GIT IGNORE SETTINGS #
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+Build/
+Logs/
+Library/
+Library/metadata/
+Library/ShaderCache/
+Library/ScriptAssemblies/
+UnityGenerated/
+
+/Temp/
+/Obj/
+/Build/
+/Library/
+/Library/metadata/
+/Library/ShaderCache/
+/Library/ScriptAssemblies/
+/UnityGenerated/
+
+Assets/FMODStudioCache.asset
+Assets/StreamingAssets/*.bank
+fmod.log
+fmod_editor.log
+sysinfo.txt
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+.vs*
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+​*.sln
+?*.sln
+*.user
+*.unityproj
+*.booproj
+*.dropbox
+*.sbk.*
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+Library/shadercompiler-32bit-1.log
+Library/shadercompiler-64bit-1.log
+
+Builds/
+_gsdata_/
+Screenshots/*
+*.alg_meta
+/Library*
+/.vs*
+*.csproj
+/obj*
+*.sln
+/Temp*
+/.vs*
+*.csproj
+/Library*
+/obj*
+/Temp*
+/Screenshots*
+*.sln
+/.autosave*
+/Build*

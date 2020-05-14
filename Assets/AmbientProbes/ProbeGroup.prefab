@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8420350483068801288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8420350483068801290}
+  - component: {fileID: 8420350483068801291}
+  m_Layer: 0
+  m_Name: AmbientGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8420350483068801290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420350483068801288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.17, y: 2.15, z: -1.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8420350483068801291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420350483068801288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf977bceea54284ba9421677d9d464d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounds:
+    m_Center: {x: 0.26570272, y: 1.6418936, z: -1.3922944}
+    m_Extent: {x: 7.492109, y: 2.0081065, z: 7.083465}
+  probes:
+  - position: {x: 3.0725222, y: 1.1337872, z: -3.1426222}
+    global: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: 3.5801694, y: 1.1337872, z: 1.4598768}
+    global: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: -2.3888779, y: 1.1337872, z: 2.0430355}
+    global: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: -2.4628541, y: 1.1337872, z: -3.5057764}
+    global: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: 0.070462346, y: 1.1337872, z: 2.636059}
+    global: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: 0.21819866, y: 1.1337872, z: 4.1911707}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: 6.2578115, y: 1.1337872, z: -1.0673432}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: 0.21772861, y: 1.1337872, z: -6.9757595}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: -5.726406, y: 1.1337872, z: -0.98470783}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: 5.8230443, y: 1.1337872, z: -6.4954123}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: -5.027452, y: 1.1337872, z: -5.8831973}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
+  - position: {x: -5.5548873, y: 1.1337872, z: 4.1871777}
+    global: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    occlusion: 1
