@@ -6,6 +6,8 @@ Similar to light probes, but samples a flat ambient color and does not require a
 Instructions
 ------------
 
+Create an empty object and `Add Component->Rendering->Ambient Probes->Group`. Click "Edit Probes" to create a first probe, from this point on you can duplicate the select probes to create more. It's important to surround an area by probes that are set to "Global", this is so it's possible to transition to whatever ambient light color the scene uses.
+
 On any object, go to `Add Component->Rendering->Ambient Probes->Sampler`. And assign any renderers that should be affected. 
 
 The `Property Name` field represents the color parameter that's being set on the materials. By default this will use _Color, but the system requires a shader with a custom lighting model so ambient light can be overridden.
